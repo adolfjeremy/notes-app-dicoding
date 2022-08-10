@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/notes-app-dicoding/static/css/main.cf47ebe5.css",
+    "main.js": "/notes-app-dicoding/static/js/main.91bddd4f.js",
+    "index.html": "/notes-app-dicoding/index.html",
+    "main.cf47ebe5.css.map": "/notes-app-dicoding/static/css/main.cf47ebe5.css.map",
+    "main.91bddd4f.js.map": "/notes-app-dicoding/static/js/main.91bddd4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf47ebe5.css",
+    "static/js/main.91bddd4f.js"
+  ]
+}
