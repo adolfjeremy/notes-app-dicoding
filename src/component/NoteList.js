@@ -13,7 +13,7 @@ function NoteList({ notes, buttonText, onDelete, onMark }) {
                     onMark={onMark}
                 />
             ))}
-            {!notes.length && <p>Empty</p>}
+            {!notes.length && <p>There is no note</p>}
         </div>
     );
 }
