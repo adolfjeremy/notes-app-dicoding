@@ -32,7 +32,6 @@ function App() {
             createdAt: new Date(),
         };
         setNote([...notes, newNotes]);
-        console.log([newNotes.title].length);
         setActiveNav("active-notes");
         setInputValue("");
         setInputBody("");
