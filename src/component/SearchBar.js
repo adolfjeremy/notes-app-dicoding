@@ -1,4 +1,5 @@
 import React from "react";
+import searchImage from "../icons/search.png";
 
 function SearchBar({ onSearch, keyword, setKeyword }) {
     return (
@@ -17,7 +18,7 @@ function SearchBar({ onSearch, keyword, setKeyword }) {
                 onInput={(event) => setKeyword(event.target.value)}
             />
             <button type="submit">
-                <img src="icons/search.png" alt="search" />
+                <img src={searchImage} alt="search" />
             </button>
         </form>
     );

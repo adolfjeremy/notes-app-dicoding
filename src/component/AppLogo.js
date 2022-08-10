@@ -1,4 +1,5 @@
 import React from "react";
+import appLogo from "../icons/big-note.png";
 
 function AppLogo() {
     return (
@@ -8,7 +9,7 @@ function AppLogo() {
                 <p>by Jeremy</p>
             </div>
             <div className="nav-logo lg-none">
-                <img src="icons/big-note.png" alt="Notes" />
+                <img src={appLogo} alt="Notes" />
             </div>
         </>
     );
