@@ -17,7 +17,7 @@ function SearchBar({ onSearch, keyword, setKeyword }) {
                 onInput={(event) => setKeyword(event.target.value)}
             />
             <button type="submit">
-                <img src="/icons/search.png" alt="search" />
+                <img src="icons/search.png" alt="search" />
             </button>
         </form>
     );
